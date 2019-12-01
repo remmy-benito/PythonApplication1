@@ -15,7 +15,7 @@ emailList=[]
 r=0
 
 #root directory of html
-directory = r'C:\Users\User\Desktop\IMDb_Html'
+directory = r'C:\Users\Brendan Carter\Desktop'
 
 for filename in os.listdir(directory):
        html_full_path = os.path.join(directory, filename)
