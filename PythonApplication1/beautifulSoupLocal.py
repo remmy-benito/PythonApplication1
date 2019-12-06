@@ -15,7 +15,7 @@ emailList=[]
 r=0
 
 #root directory of html
-directory = r'C:\Users\Brendan Carter\Desktop'
+directory = r'E:\ImdbEmails\12-6-2019'
 
 for filename in os.listdir(directory):
        html_full_path = os.path.join(directory, filename)
@@ -37,7 +37,7 @@ for email in emailList:
     r=r+1
     ws.write(r,0,email)
 
-wb.save('emails.xls')
+wb.save('emails1262019.xls')
        
 
 
